@@ -1,20 +1,17 @@
 # Real-Time-Number-Plate-Recognition
-![1_-1D-CabftTbQpm01cp3Dpg](https://user-images.githubusercontent.com/56076028/145536187-50aaa69f-655c-4459-8353-78327a2c0f7c.gif)
+Author : Deepak Pant 22M0035@iitb.ac.in
 
 
 ## Tech Stack
-* [yolov4](https://github.com/theAIGuysCode/yolov4-custom-functions) : I used this OD model because it performs much better than traditional computer vision methods.
-* [Easy OCR](https://github.com/JaidedAI/EasyOCR) : In this project I used EasyOCR to extract text and leverage a size filtering algorithm to grab the largest detection region. EasyOCR is build on PyTorch.
 * [openCV](https://opencv.org/): It is a library mainly used at real-time computer vision.
 * [Tensorflow](https://github.com/tensorflow/models) : Here I used Tensorflow object detection Model (SSD MobileNet V2 FPNLite 320x320) to detect the plate trained on a Kaggle Dataset.
-* Python Libraries: Most of the libraries are mentioned in [requirements.txt](https://github.com/harshitkd/Real-Time-Number-Plate-Recognition/blob/main/requirements.txt) but some of the libraries and requirements depends on the user's machines, whether its installed or not and also the libraries for Tensorflow Object Detection (TFOD) consistently change. Eg: pycocotools, pytorch with CUDA acceleration (with or without GPU), microsoft visual c++ 19.0 etc.
-
+* Python Libraries: Most of the libraries are mentioned in [requirements.txt](https://github.com/harshitkd/Real-Time-Number-Plate-Recognition/blob/main/requirements.txt) but some of the libraries and requirements depends on the user's machines, whether its installed or not and also the libraries for Tensorflow Object Detection (TFOD) consistently change.
 ## Steps
 These outline the steps I used to go through in order to get up and running with ANPR. 
 
 ### Install and Setup :
 
-<b>Step 1.</b> Clone this repository: https://github.com/harshitkd/Real-Time-Number-Plate-Recognition
+<b>Step 1.</b> Clone this repository: https://github.com/Pantd007/Car-Number-Plate-Detection
 <br/><br/>
 <b>Step 2.</b> Create a new virtual environment 
 <pre>
@@ -92,4 +89,3 @@ tensorboard --logdir=.
 
 ![AR](https://user-images.githubusercontent.com/56076028/145684962-3236958f-4354-4230-b8d2-c59d18665b31.jpg)
 
-#### For all other details and errors I faced, you can see [here](https://github.com/harshitkd/Real-Time-Number-Plate-Recognition/wiki/Details-and-Errors)
