@@ -42,14 +42,10 @@ KeyError: 'ThumbsDown' # YOUR LABEL HERE
 
 <b>Error:</b> When training, only the CPU is used and the GPU is ignored. 
 <br/>
-<b>Solution:</b> Ensure you have a matching CUDA and cuDNN version for your Tensorflow version installed. Windows:https://www.tensorflow.org/install/source_windows, Linux/macOS: https://www.tensorflow.org/install/source
+<b>Solution:</b> Ensure you have a matching CUDA and cuDNN version for your Tensorflow version installed. 
 
 <b>Error:</b>CUBLAS_STATUS_ALLOC_FAILED or CUDNN_STATUS_ALLOC_FAILED <br/>
 <b>Solution:</b> This is because the available VRAM on your machine is completely consumed and there is no more memory available to train. Quit all of your Python programs and stop your Jupyter Notebook server to free up the VRAM and run the command again. 
 
 
 
-Template
-<b>Error:</b> <br/>
-<b>Solution:</b> 
-<pre></pre>
