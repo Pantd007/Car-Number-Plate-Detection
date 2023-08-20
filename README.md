@@ -1,12 +1,44 @@
 # Real-Time-Number-Plate-Recognition
 Author : Deepak Pant 22M0035@iitb.ac.in
 
+# **Problem Statement:**
+Real-Time Number Plate Detection and Vehicle Tracking using OpenCV
+
+Ensuring road safety and compliance with traffic regulations requires efficient monitoring and identification of vehicles, especially at critical points such as traffic signals and highways. This project addresses this need by developing a real-time number plate detection system using OpenCV, a computer vision library. The project aims to create a robust solution that identifies and tracks vehicles, captures number plates, and provides motion prediction within dynamic road environments.
+
+# **Project Objectives:**
+
+The central objective of this project is to create a real-time number plate detection system capable of tracking vehicles and capturing number plates using OpenCV. By combining computer vision techniques and motion prediction, the project aims to achieve the following specific objectives:
+
+1. **Real-Time Detection:** Develop a Python code using OpenCV to enable real-time identification and capture of car number plates. Utilize image processing techniques to isolate and extract number plate regions from live video streams.
+
+2. **Vehicle Tracking:** Implement tracking mechanisms to acknowledge and follow vehicles as they move through the monitored area. This involves employing object tracking algorithms to maintain the continuity of tracking.
+
+3. **Motion Prediction:** Incorporate motion prediction algorithms to estimate the trajectory of vehicles, enabling the system to predict their future positions based on their current velocities.
+
+4. **Speed Detection:** Integrate speed detection mechanisms that calculate and report the speed of vehicles based on the time taken to traverse specific distances. This enables identification of over-speeding vehicles.
+
+# **Importance and Implications:**
+
+The successful completion of this project holds several significant implications:
+
+- **Enhanced Road Safety:** The real-time number plate detection system aids in monitoring and enforcing traffic regulations, contributing to safer road environments.
+- **Traffic Management:** By capturing number plates and tracking vehicle movements, the system assists traffic authorities in managing traffic flow and identifying potential congestion points.
+- **Law Enforcement:** The system's capability to detect over-speeding vehicles empowers law enforcement agencies to take timely action against traffic rule violators.
+- **Surveillance and Monitoring:** The project provides a valuable tool for surveillance and monitoring of road activities, helping authorities address security concerns and ensure compliance.
+
+# **Applicability and Deployment:**
+
+The project's outcome is applicable for deployment at critical road points, such as traffic signals, highways, and checkpoints. It provides real-time insights into vehicle movements, speed violations, and potential risks, enabling prompt response and action. The system's accuracy and real-time capabilities make it a valuable asset for traffic management and law enforcement agencies.
+
+By leveraging OpenCV and computer vision techniques, this project aims to contribute to road safety, efficient traffic management, and improved law enforcement practices. The system's ability to identify vehicles, capture number plates, track movement, and predict motion holds the potential to revolutionize real-time monitoring in road environments.
+
 
 ## Tech Stack
 * [openCV](https://opencv.org/): It is a library mainly used at real-time computer vision.
 * [Tensorflow](https://github.com/tensorflow/models) : Here I used Tensorflow object detection Model (SSD MobileNet V2 FPNLite 320x320) to detect the plate trained on a Kaggle Dataset.
 * Python Libraries: Most of the libraries are mentioned in [requirements.txt](https://github.com/harshitkd/Real-Time-Number-Plate-Recognition/blob/main/requirements.txt) but some of the libraries and requirements depends on the user's machines, whether its installed or not and also the libraries for Tensorflow Object Detection (TFOD) consistently change.
-## Steps
+# Steps
 These outline the steps I used to go through in order to get up and running with ANPR. 
 
 ### Install and Setup :
@@ -32,7 +64,7 @@ python -m ipykernel install --user --name=anprsys
 </pre>
 <br/>
 
-### Dataset: 
+# Dataset: 
 Used the [Car License Plate Detection](https://www.kaggle.com/andrewmvd/car-plate-detection) kaggel dataset and manually divided the collected images into two folders train and test so that all the images and annotations will be split among these two folders.
 
 ### Training Object Detection Model
